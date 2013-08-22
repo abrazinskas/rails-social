@@ -14,10 +14,13 @@ gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
-
+gem 'libv8','3.11.8.17'
 
 # Use mysql as the database for Active Record
-gem 'mysql2'
+
+
+  #gem 'mysql2'
+  gem 'pg'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
