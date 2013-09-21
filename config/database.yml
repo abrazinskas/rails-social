@@ -14,7 +14,7 @@ development:
   database: demo_app_development
   pool: 5
   username: root
-  password: skov9240
+  password:
   socket: /var/run/mysqld/mysqld.sock
   host: localhost
 
@@ -27,7 +27,7 @@ test: &test
   database: demo_app_test
   pool: 5
   username: root
-  password: skov9240
+  password:
   socket: /var/run/mysqld/mysqld.sock
   host: localhost
 
@@ -37,7 +37,7 @@ production:
   database: demo_app_production
   pool: 5
   username: root
-  password: skov9240
+  password:
   socket: /var/run/mysqld/mysqld.sock
   host: localhost
 

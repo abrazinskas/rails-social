@@ -11,6 +11,7 @@ gem 'bcrypt-ruby','3.0.0'
 gem 'faker'
 gem 'rails_12factor', group: :production
 
+
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
