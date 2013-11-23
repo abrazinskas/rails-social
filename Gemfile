@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 #gem 'rails', '3.2.14'
 gem 'rails', '4.0.0'
 
+gem 'newrelic_rpm'
+
 gem 'bcrypt-ruby','3.0.0'
 
 # gem for testing purposes
